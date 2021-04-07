@@ -22,11 +22,11 @@ function SideMenu() {
               <img
                 src="dist/img/user2-160x160.jpg"
                 className="img-circle elevation-2"
-                alt="User Image"
+                alt="User"
               />
             </div>
             <div className="info">
-              <a href="#" className="d-block">
+              <a href="/" className="d-block">
                 Alexander Pierce
               </a>
             </div>
@@ -58,7 +58,7 @@ function SideMenu() {
               {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
               <li className="nav-item menu-open">
-                <a href="#" className="nav-link active">
+                <a href="/" className="nav-link active">
                   <i className="nav-icon fas fa-tachometer-alt" />
                   <p>
                     Dashboard
@@ -96,7 +96,7 @@ function SideMenu() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fas fa-copy" />
                   <p>
                     Layout Options
@@ -176,7 +176,7 @@ function SideMenu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fas fa-chart-pie" />
                   <p>
                     Charts
@@ -211,7 +211,7 @@ function SideMenu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fas fa-tree" />
                   <p>
                     UI Elements
@@ -270,7 +270,7 @@ function SideMenu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fas fa-edit" />
                   <p>
                     Forms
@@ -305,7 +305,7 @@ function SideMenu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fas fa-table" />
                   <p>
                     Tables
@@ -356,7 +356,7 @@ function SideMenu() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon far fa-envelope" />
                   <p>
                     Mailbox
@@ -385,7 +385,7 @@ function SideMenu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fas fa-book" />
                   <p>
                     Pages
@@ -471,7 +471,7 @@ function SideMenu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon far fa-plus-square" />
                   <p>
                     Extras
@@ -480,7 +480,7 @@ function SideMenu() {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>
                         Login &amp; Register v1
@@ -527,7 +527,7 @@ function SideMenu() {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>
                         Login &amp; Register v2
@@ -633,7 +633,7 @@ function SideMenu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fas fa-search" />
                   <p>
                     Search
@@ -670,13 +670,13 @@ function SideMenu() {
               </li>
               <li className="nav-header">MULTI LEVEL EXAMPLE</li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="fas fa-circle nav-icon" />
                   <p>Level 1</p>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fas fa-circle" />
                   <p>
                     Level 1
@@ -685,13 +685,13 @@ function SideMenu() {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Level 2</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>
                         Level 2
@@ -700,19 +700,19 @@ function SideMenu() {
                     </a>
                     <ul className="nav nav-treeview">
                       <li className="nav-item">
-                        <a href="#" className="nav-link">
+                        <a href="/" className="nav-link">
                           <i className="far fa-dot-circle nav-icon" />
                           <p>Level 3</p>
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="#" className="nav-link">
+                        <a href="/" className="nav-link">
                           <i className="far fa-dot-circle nav-icon" />
                           <p>Level 3</p>
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="#" className="nav-link">
+                        <a href="/" className="nav-link">
                           <i className="far fa-dot-circle nav-icon" />
                           <p>Level 3</p>
                         </a>
@@ -720,7 +720,7 @@ function SideMenu() {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Level 2</p>
                     </a>
@@ -728,26 +728,26 @@ function SideMenu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="fas fa-circle nav-icon" />
                   <p>Level 1</p>
                 </a>
               </li>
               <li className="nav-header">LABELS</li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon far fa-circle text-danger" />
                   <p className="text">Important</p>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon far fa-circle text-warning" />
                   <p>Warning</p>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon far fa-circle text-info" />
                   <p>Informational</p>
                 </a>

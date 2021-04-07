@@ -15,7 +15,7 @@ function Contents() {
               <div className="col-sm-6">
                 <ol className="breadcrumb float-sm-right">
                   <li className="breadcrumb-item">
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li className="breadcrumb-item active">Dashboard v1</li>
                 </ol>
@@ -42,7 +42,7 @@ function Contents() {
                   <div className="icon">
                     <i className="ion ion-bag" />
                   </div>
-                  <a href="#" className="small-box-footer">
+                  <a href="/" className="small-box-footer">
                     More info <i className="fas fa-arrow-circle-right" />
                   </a>
                 </div>
@@ -60,7 +60,7 @@ function Contents() {
                   <div className="icon">
                     <i className="ion ion-stats-bars" />
                   </div>
-                  <a href="#" className="small-box-footer">
+                  <a href="/" className="small-box-footer">
                     More info <i className="fas fa-arrow-circle-right" />
                   </a>
                 </div>
@@ -76,7 +76,7 @@ function Contents() {
                   <div className="icon">
                     <i className="ion ion-person-add" />
                   </div>
-                  <a href="#" className="small-box-footer">
+                  <a href="/" className="small-box-footer">
                     More info <i className="fas fa-arrow-circle-right" />
                   </a>
                 </div>
@@ -92,7 +92,7 @@ function Contents() {
                   <div className="icon">
                     <i className="ion ion-pie-graph" />
                   </div>
-                  <a href="#" className="small-box-footer">
+                  <a href="/" className="small-box-footer">
                     More info <i className="fas fa-arrow-circle-right" />
                   </a>
                 </div>
@@ -116,18 +116,14 @@ function Contents() {
                         <li className="nav-item">
                           <a
                             className="nav-link active"
-                            href="#revenue-chart"
+                            href="/"
                             data-toggle="tab"
                           >
                             Area
                           </a>
                         </li>
                         <li className="nav-item">
-                          <a
-                            className="nav-link"
-                            href="#sales-chart"
-                            data-toggle="tab"
-                          >
+                          <a className="nav-link" href="/" data-toggle="tab">
                             Donut
                           </a>
                         </li>
@@ -218,7 +214,7 @@ function Contents() {
                         <img
                           className="direct-chat-img"
                           src="dist/img/user1-128x128.jpg"
-                          alt="message user image"
+                          alt="message user"
                         />
                         {/* /.direct-chat-img */}
                         <div className="direct-chat-text">
@@ -241,7 +237,7 @@ function Contents() {
                         <img
                           className="direct-chat-img"
                           src="dist/img/user3-128x128.jpg"
-                          alt="message user image"
+                          alt="message user"
                         />
                         {/* /.direct-chat-img */}
                         <div className="direct-chat-text">
@@ -264,7 +260,7 @@ function Contents() {
                         <img
                           className="direct-chat-img"
                           src="dist/img/user1-128x128.jpg"
-                          alt="message user image"
+                          alt="message user"
                         />
                         {/* /.direct-chat-img */}
                         <div className="direct-chat-text">
@@ -287,7 +283,7 @@ function Contents() {
                         <img
                           className="direct-chat-img"
                           src="dist/img/user3-128x128.jpg"
-                          alt="message user image"
+                          alt="message user"
                         />
                         {/* /.direct-chat-img */}
                         <div className="direct-chat-text">I would love to.</div>
@@ -300,7 +296,7 @@ function Contents() {
                     <div className="direct-chat-contacts">
                       <ul className="contacts-list">
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <img
                               className="contacts-list-img"
                               src="dist/img/user1-128x128.jpg"
@@ -322,7 +318,7 @@ function Contents() {
                         </li>
                         {/* End Contact Item */}
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <img
                               className="contacts-list-img"
                               src="dist/img/user7-128x128.jpg"
@@ -344,7 +340,7 @@ function Contents() {
                         </li>
                         {/* End Contact Item */}
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <img
                               className="contacts-list-img"
                               src="dist/img/user3-128x128.jpg"
@@ -366,7 +362,7 @@ function Contents() {
                         </li>
                         {/* End Contact Item */}
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <img
                               className="contacts-list-img"
                               src="dist/img/user5-128x128.jpg"
@@ -388,7 +384,7 @@ function Contents() {
                         </li>
                         {/* End Contact Item */}
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <img
                               className="contacts-list-img"
                               src="dist/img/user6-128x128.jpg"
@@ -410,7 +406,7 @@ function Contents() {
                         </li>
                         {/* End Contact Item */}
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <img
                               className="contacts-list-img"
                               src="dist/img/user8-128x128.jpg"
@@ -438,7 +434,7 @@ function Contents() {
                   </div>
                   {/* /.card-body */}
                   <div className="card-footer">
-                    <form action="#" method="post">
+                    <form action="-" method="post">
                       <div className="input-group">
                         <input
                           type="text"
@@ -467,27 +463,27 @@ function Contents() {
                     <div className="card-tools">
                       <ul className="pagination pagination-sm">
                         <li className="page-item">
-                          <a href="#" className="page-link">
+                          <a href="/" className="page-link">
                             «
                           </a>
                         </li>
                         <li className="page-item">
-                          <a href="#" className="page-link">
+                          <a href="/" className="page-link">
                             1
                           </a>
                         </li>
                         <li className="page-item">
-                          <a href="#" className="page-link">
+                          <a href="/" className="page-link">
                             2
                           </a>
                         </li>
                         <li className="page-item">
-                          <a href="#" className="page-link">
+                          <a href=" " className="page-link">
                             3
                           </a>
                         </li>
                         <li className="page-item">
-                          <a href="#" className="page-link">
+                          <a href="/" className="page-link">
                             »
                           </a>
                         </li>
@@ -826,14 +822,14 @@ function Contents() {
                           <i className="fas fa-bars" />
                         </button>
                         <div className="dropdown-menu" role="menu">
-                          <a href="#" className="dropdown-item">
+                          <a href="/" className="dropdown-item">
                             Add new event
                           </a>
-                          <a href="#" className="dropdown-item">
+                          <a href="/" className="dropdown-item">
                             Clear events
                           </a>
                           <div className="dropdown-divider" />
-                          <a href="#" className="dropdown-item">
+                          <a href="/" className="dropdown-item">
                             View calendar
                           </a>
                         </div>
